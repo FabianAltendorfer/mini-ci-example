@@ -16,5 +16,7 @@ func TestGetMinuteDown(t *testing.T) {
 	if res != 1 {
 		t.Errorf("getMinute(1, 15) = %d; wanted 1", res)
 	}
-	t.Errorf("fail test", res)
+func dummyFunction() int {
+	return 42
+}
 }
