@@ -19,5 +19,5 @@ func TestGetMinuteDown(t *testing.T) {
 }
 
 func dummyFunction() int {
-	return 43
+	return 42
 }
