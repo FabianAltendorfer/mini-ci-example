@@ -45,6 +45,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: . 
-          tags: fabianaltendorfer/app:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/app:latest
           push: true
 
